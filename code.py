@@ -5,13 +5,6 @@ import plotly.express as px
 st.write('# Hotel Bookings')
 
 st.write('## Home countries of guests')
-# Load Gapminder data
-# @st.cache decorator skip reloading the code when the apps rerun.
-# @st.cache
-# def loadData():
-#     return pd.read_csv('hotel_bookings.csv')
-
-# df = loadData()
 
 df = pd.read_csv('hotel_bookings.csv')
 
