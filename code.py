@@ -1,15 +1,6 @@
-from turtle import width
 import streamlit as st
 import pandas as pd
-import altair as alt
-from altair import datum
-from vega_datasets import data
-from streamlit_vega_lite import vega_lite_component, altair_component
-import time
-import plotly.figure_factory as ff
-import numpy as np
 import plotly.express as px
-import matplotlib.pyplot as plt
 
 st.write('# Hotel Bookings')
 
